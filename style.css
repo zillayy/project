@@ -1,0 +1,192 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #d90429;
+    border-radius: 10px;
+}
+
+header .hero h1 {
+    font-size: 4em;
+    margin: 0;
+    color: #f7b267; /* Red color for header text */
+    animation: fadeIn 3s;
+}
+
+header .hero .subtitle {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #ff6f61; /* Red color for subtitle */
+}
+
+header .hero .countdown p {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #ff6f61; /* Red color for countdown timer */
+}
+
+.gallery {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ef233c; /* Slightly dark background for contrast */
+}
+
+.gallery h2 {
+    font-size: 2.5em;
+    color: #ff6f61; /* Red color for gallery heading */
+}
+
+.photo-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #ef233c;
+    transition: transform 0.3s;
+}
+
+.photo-grid img:hover {
+    transform: scale(1.05);
+}
+
+.love-story {
+    background: #ef233c; /* Darker background for better readability */
+    padding: 50px 20px;
+}
+
+.love-story h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #370617; /* Red color for love story heading */
+}
+
+.timeline {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.timeline .event {
+    margin: 20px 0;
+    color: #fff; /* White color for text inside the timeline events */
+}
+
+.interactive-card {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ef233c; /* Slightly dark background for contrast */
+}
+
+.interactive-card button {
+    background-color: #ff6f61; /* Red color for the button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card {
+    display: none;
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 500px;
+    animation: popIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes popIn {
+    from { transform: scale(0.5); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.contact {
+    padding: 50px 20px;
+    background: #ef233c; /* Darker background for better readability */
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #d90429; /* Red color for contact heading */
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #fff; /* White color for form labels */
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #ff6f61; /* Red color for form button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.card {
+    display: none;
+    width: 200px;
+    height: 300px;
+    background: lightgrey;
+    /* Other styling */
+  }
+  
+  .card.open {
+    display: block;
+  }
+  .birthday-banner {
+    background: #f9c74f;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    animation: bannerAnimation 3s infinite;
+  }
+  
+  @keyframes bannerAnimation {
+    0% { background-color: #f9c74f; }
+    50% { background-color: #f94144; }
+    100% { background-color: #f9c74f; }
+  }
+  .garylle {
+    background-color: #d90429; /* Updated color */
+}
+
+  
+  
+  
+  
+
+
+
